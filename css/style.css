@@ -1,0 +1,201 @@
+/* GLOBAL STYLES */
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+div {
+    border: 1px solid Chocolate;
+}
+
+.content {
+	width:60%;
+	margin: 0 auto;
+	padding: .5em 1em;
+}
+
+
+/*Fonts*/
+
+h1, h2, h3, h4, h5, h6, p {
+font-family: 'Roboto', sans-serif; 
+}
+
+h1 {
+	font-size:3em;
+	font-weight:300;
+	margin-bottom: 0;
+}
+
+h2 {
+font-size: 2.5em;
+font-weight:300;
+margin-bottom: 0;
+}
+
+h3 {
+ font-size: 2em;
+}
+
+h4 {
+font-size: 1.5em;
+font-weight:300;
+margin-top:1.25rem;
+}
+
+h5{
+font-size: 1.25em;
+font-weight: 300;
+}
+
+h6{
+font-size: .80em;
+font-weight: 400;
+}
+
+p {
+	font-size: 1em;
+}
+
+/* Links */
+
+/* unvisited link */
+a:link {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4c5058;
+}
+
+/* selected link */
+a:active {
+    color: #4c5058;
+    font-weight: 600;
+}
+
+/*Nav Bar*/
+
+.nav {
+	background-color: #fff;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.nav .content {
+	height: 4em;
+	vertical-align: baseline;
+}
+
+
+.logo {
+	float:left;
+	height: 4em;
+
+}
+
+.nav-items{
+	list-style-type: none;
+	float:right;
+}
+
+.nav-items li{
+	float:left;
+	display: inline-block;
+	padding: 1em 1em 1em 1em;
+	color:#838994;
+}
+
+.nav-items > :first-child {
+	padding: 1em 1em 1em 0;
+}
+
+.nav-items > :last-child {
+	padding: 1em 0 1em 1em;
+}
+
+.nav .nav-items > .active {
+   color: #4c5058;
+   font-weight: 600;
+}
+
+
+/* Hero Section*/
+
+.hero {
+	background-image: url('../img/first-background.jpg');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 35rem;
+}
+
+.hero {
+	text-align:center;
+	color: #fff;
+
+}
+
+.main {
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+}
+
+button{
+  width: 9.688rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  color: white;
+  margin: auto auto;
+  display: block;
+}
+
+button h5 {
+	margin: 0 0;
+}
+
+.case {
+  background-color:#fff;
+  margin: 8em auto 3em auto; 
+  text-align: center;
+}
+
+.case {
+	color: #1d1e21;
+}
+
+.case h4 {
+	font-weight: 400;
+}
+
+.case ul>li{
+	list-style: none;
+	width: 10em;
+	display: inline-block;
+	padding: 2em;
+}
+
+h4.caption {
+	display: inline-block;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eaebec;
+}
+
+footer {
+	text-align: center;
+}
+
