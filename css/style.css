@@ -3,19 +3,12 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-div {
-    border: 1px solid Chocolate;
-}
-
 .content {
 	width:60%;
 	margin: 0 auto;
 	padding: .5em 1em;
 }
 
-ul li {
-	list-style-type: none;
-}
 
 /*Fonts*/
 
@@ -87,9 +80,6 @@ a:active {
 
 .nav {
 	background-color: #fff;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 1;
 }
 
 .nav .content {
@@ -168,6 +158,12 @@ button h5 {
 	margin: 0 0;
 }
 
+button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d0e;
+  cursor: pointer;
+}
+
 .case {
   background-color:#fff;
   margin: 8em auto 3em auto; 
@@ -200,5 +196,29 @@ hr {
 
 footer {
 	text-align: center;
+}
+
+footer ul>li{
+	list-style-type: none;
+	display: inline-block;
+	border-radius: 1.25rem;
+    width: 2.5rem;
+    height: auto;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+ul.social {
+	padding: 0 40px !important;
+}
+
+
+.social .twitter {
+	color: #55acee;
+}
+
+.social .instagram, .facebook { 
+  color: #3f729b;
 }
 
