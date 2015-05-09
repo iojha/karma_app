@@ -98,7 +98,7 @@ a:active {
 	float:left;
 	display: inline-block;
 	padding: 1em 1em 1em 1em;
-	color:#838994;
+	color:#838994 !important;
 }
 
 .nav-items > :first-child {
