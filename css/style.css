@@ -3,8 +3,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .content {
-	width:60%;
+	width: 60%;
 	margin: 0 auto;
 	padding: .5em 1em;
 }
@@ -78,7 +85,7 @@ a:active {
 }
 
 .nav .content {
-	height: 4em;
+	height: 5em;
 	vertical-align: baseline;
 }
 
@@ -97,7 +104,7 @@ a:active {
 .nav-items li{
 	float:left;
 	display: inline-block;
-	padding: 1em 1em 1em 1em;
+	padding: 1em 1em;
 	color:#838994 !important;
 }
 
@@ -161,7 +168,7 @@ button:hover {
 
 .case {
   background-color:#fff;
-  margin: 8em auto 3em auto; 
+  margin: 5em auto 3em auto; 
   text-align: center;
 }
 
@@ -173,9 +180,14 @@ button:hover {
 	font-weight: 400;
 }
 
+.devices {
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
 .case ul>li{
 	list-style: none;
-	width: 10em;
+	width: 30%;
 	display: inline-block;
 	padding: 2em;
 }
